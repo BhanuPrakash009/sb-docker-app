@@ -8,7 +8,7 @@ public class WelcomeController {
 	
 	@GetMapping("/hello")
 	public String getMsg() {
-		return "Welcome to Docker Tutrial";
+		return "Welcome to Docker Tutorial";
 	}
 
 }
